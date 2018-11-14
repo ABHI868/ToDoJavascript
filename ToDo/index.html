@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <title>Simple ToDo Application</title>
+        <link rel = "stylesheet" type="text/css" href="style1.css"> 
+
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="controls">
+                <h1>My ToDo List</h1>
+                <input type="text" id="input"><br><br>
+                <button type="button" id="add" onclick="addItem()">Add </button>
+                <button type="button" id="remove" onclick="removeitem()">Remove </button>
+            </div>
+            <div class="viewlist">
+                <ul id="list">
+
+                        <li class="check">
+                            <input type="checkbox">
+                            <label>Go to Gym</label>
+                        </li>
+
+                        <li class="check" >
+                            <input type="checkbox" checked>
+                            <label>Watch TV</label>
+                        </li>
+                        
+                </ul>
+            </div>
+        </div>
+        <script src="todo.js">    
+        </script>
+    </body>
+
+
+
+</html>
